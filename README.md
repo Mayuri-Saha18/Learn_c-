@@ -22,13 +22,14 @@ The main difference between C and C++ is that C++ support classes and objects, w
 
 # Example
 
+```cpp
 #include <iostream>
 using namespace std;
 int main() {
   cout << "Hello World!";
   return 0;
 }
-
+```
 Example explained
 Line 1: #include <iostream> is a header file library that lets us work with input and output objects, such as cout (used in line 5). Header files add functionality to C++ programs.
 
@@ -58,8 +59,10 @@ You might see some C++ programs that runs without the standard namespace library
 
 Example
 
+```cpp
 #include <iostream>
 int main() {
   std::cout << "Hello World!";
   return 0;
 }
+```
