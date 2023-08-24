@@ -1,5 +1,3 @@
-# Learn_c++
-
 # What is C++?
 C++ is a cross-platform language that can be used to create high-performance applications.
 C++ was developed by Bjarne Stroustrup, as an extension to the C language.
