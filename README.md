@@ -21,9 +21,9 @@ C++ was developed as an extension of C, and both languages have almost the same 
 The main difference between C and C++ is that C++ support classes and objects, while C does not.
 
 # Example
+
 #include <iostream>
 using namespace std;
-
 int main() {
   cout << "Hello World!";
   return 0;
@@ -57,8 +57,8 @@ Line 7: Do not forget to add the closing curly bracket } to actually end the mai
 You might see some C++ programs that runs without the standard namespace library. The using namespace std line can be omitted and replaced with the std keyword, followed by the :: operator for some objects:
 
 Example
-#include <iostream>
 
+#include <iostream>
 int main() {
   std::cout << "Hello World!";
   return 0;
